@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-=======
 import '../../data/datasource/mock_data.dart';
 import '../../util/themes/colors.dart';
 import '../../widgets/action_button.dart';
@@ -12,7 +10,6 @@ import '../create_bot/create_bot_screens.dart';
 import '../chat_history/chat_history_screen.dart';
 import '../prompt_library/create_prompt/create_prompt_screen.dart';
 import '../prompt_library/prompt_library.dart';
->>>>>>> 3582948 (update code)
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -22,20 +19,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-<<<<<<< HEAD
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
-      ),
-      body: const Center(
-        child: Text('Home Screen'),
-      ),
-    );
-  }
-}
-=======
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   final List<Map<String, dynamic>> messages = [];
   final ScrollController _scrollController = ScrollController();
@@ -522,4 +505,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
->>>>>>> 3582948 (update code)

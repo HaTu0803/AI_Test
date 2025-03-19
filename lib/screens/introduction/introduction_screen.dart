@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-<<<<<<< HEAD
-
-import '../../auth/auth.dart';
-
-
-=======
 import 'package:lottie/lottie.dart';
 import '../../auth/auth.dart';
 import '../../model/intro.dart';
->>>>>>> 3582948 (update code)
 class IntroductionScreen extends StatelessWidget {
   const IntroductionScreen({super.key});
 
@@ -24,24 +17,6 @@ class IntroductionScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
-    return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Text("Chào mừng đến với ứng dụng!", style: TextStyle(fontSize: 24)),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () => _completeIntroduction(context),
-              child: const Text("Bắt đầu"),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-=======
     final c = PageController();
     final list = [
     Intro(title: 'Ask me anything', subtitle: 'I can be your best friend and you can ask me anything, I will help you with my best', lottie: 'animation2'),
@@ -113,5 +88,4 @@ class IntroductionScreen extends StatelessWidget {
     },)
   );
 }
->>>>>>> 3582948 (update code)
 }

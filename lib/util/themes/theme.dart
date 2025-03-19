@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'colors.dart';
-<<<<<<< HEAD
-=======
 import 'custom_themes/elevated_button_theme.dart';
 import 'custom_themes/outlined_button_theme.dart';
->>>>>>> 3582948 (update code)
 import 'custom_themes/text_field_theme.dart';
 import 'custom_themes/text_theme.dart';
 
@@ -19,11 +16,8 @@ class TAppTheme {
     scaffoldBackgroundColor: AppColors.backgroundLight,
     textTheme: TTextTheme.lightTextTheme,
     inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme,
-<<<<<<< HEAD
-=======
     elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
     outlinedButtonTheme: TOutlinedButtonTheme.LightOutlinedButtonTheme,
->>>>>>> 3582948 (update code)
     colorScheme: ColorScheme.light(
       primary: AppColors.primary,
       onPrimary: AppColors.textLight,
@@ -31,13 +25,8 @@ class TAppTheme {
       secondary: AppColors.secondary,
       onSecondary: AppColors.textDark,
       secondaryContainer: AppColors.secondaryLight,
-<<<<<<< HEAD
-      background: AppColors.backgroundLight,
-      onBackground: AppColors.textDark,
-=======
       surface: AppColors.backgroundLight,
       onSurface: AppColors.textDark,
->>>>>>> 3582948 (update code)
       error: AppColors.error,
     ),
   );
@@ -50,11 +39,8 @@ class TAppTheme {
     scaffoldBackgroundColor: AppColors.backgroundDark,
     textTheme: TTextTheme.darkTextTheme,
     inputDecorationTheme: TTextFormFieldTheme.darkInputDecorationTheme,
-<<<<<<< HEAD
-=======
     elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme,
     outlinedButtonTheme: TOutlinedButtonTheme.DarkOutlinedButtonTheme,
->>>>>>> 3582948 (update code)
     colorScheme: ColorScheme.dark(
       primary: AppColors.primaryDark,
       onPrimary: AppColors.textLight,
